@@ -1,0 +1,21 @@
+* {
+	max-width: 800px;
+	padding: 20, 2, 20, 10;
+}
+
+h1 {
+	background-color: #A52A2A;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p{
+	font-size: 18px;
+}
+
+footer {
+	background-color: #000000;
+	color: #E7F4EF;
+	font-size: 20px;
+	text-align: center;
+}

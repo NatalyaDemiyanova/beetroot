@@ -13,6 +13,25 @@ p{
 	font-size: 18px;
 }
 
+.italic {
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.images {
+	text-align: center;
+	
+}
+
+.auto {
+	border: medium dotted black;
+}
+
+.blue {
+	color: blue;
+}
+
 footer {
 	background-color: #000000;
 	color: #E7F4EF;

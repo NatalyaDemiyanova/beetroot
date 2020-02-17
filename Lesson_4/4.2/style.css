@@ -1,0 +1,17 @@
+* {
+	max-width: 1200px;
+	background-color: #990909;
+}
+
+h1 {
+	font-size: 15px;
+	color: #F6EEEF;
+	text-align: center;
+}
+
+.menu {
+	display: inline-block;
+	justify-content: space-between;
+	background-color: #000000;
+	list-style-type: none;
+}

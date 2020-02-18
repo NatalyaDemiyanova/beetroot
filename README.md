@@ -1,5 +1,5 @@
 # Beetroot
-* [Lesson 1](https://natalyademiyanova.github.io/beetroot/Leson_1)
+* [Lesson 1](https://natalyademiyanova.github.io/beetroot/Lesson_1)
 * [Lesson 2](https://natalyademiyanova.github.io/beetroot//Lesson_2)
   * [Lesson 2.1](https://natalyademiyanova.github.io/beetroot/Lesson_2/1)
   * [Lesson 2.2](https://natalyademiyanova.github.io/beetroot/Lesson_2/2)

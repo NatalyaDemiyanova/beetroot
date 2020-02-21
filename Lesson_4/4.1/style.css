@@ -1,5 +1,4 @@
 * {
-	max-width: 800px;
 	padding: 20, 2, 20, 10;
 }
 
@@ -7,6 +6,10 @@ h1 {
 	background-color: #A52A2A;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+.foto {
+	width: 100%;
 }
 
 p{

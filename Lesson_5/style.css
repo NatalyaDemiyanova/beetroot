@@ -1,12 +1,28 @@
+
+:root {
+  --main-color: #ffae00;
+  --white: #ffffff;
+  --dark-blue: #1c2d33;
+  --grey: #232323;
+  --dark-grey: #202020;
+  --brown: #0b0002;
+  --max-width: 1140px;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body, button, input, textarea {
+  font-family: 'Raleway', sans-serif;
+}
+
 body {
 	min-height: 100vh;
-	background-color: white;
+	background-color: var(--white);
 	display: flex;
 	
 }

@@ -6,6 +6,15 @@
 	--border-color: #2B81AC;
 	--lisbon-color: #3399CC;
 	--paris-color: #33CCCC;
+	--belgrade-color: #996699;
+	--moscow-color: #C24747;
+	--tel-aviv-color: #E2674A;
+	--cair-color: #FFCC66;
+	--NY-color: #99CC99;
+	--delhi-color: #669999;
+	--san-francisco-color: #CC6699;
+	--tokyo-color: #339966;
+	--sydney-color: #666699;
 }
 
 * {
@@ -13,7 +22,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body {
 	max-width: 1468px;
 	border: 25px solid var(--border-color);
@@ -25,71 +33,62 @@ body {
 	padding: 35px 0 35px 100px;
 }													
 .list {
+	display: flex;
+	flex-wrap: wrap;
 	margin: auto;
 	max-width: 1226px;
 	list-style-type: none;
 	border: 3px solid white;
-
 }
 .list:hover .list__cities:not(:hover) {
 	opacity: 0.5;
 }
 .list__cities {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
 	border: 3px solid white;
 	font-size: 32px;
 	height: 155px;
-	/*text-align: center;*/
+	width: 25%;
+	text-align: center;
 }
-
+/*.list__cities:nth-child(1) */
 .list__lisbon {
 	width: 50%;
 	background-color: var(--lisbon-color);
 }
-
 .list__paris {
-	width: 25%;
 	background-color: var(--paris-color);
 }
 .list__belgrade {
-	width: 25%;
-	background-color: #996699;
+	background-color: var(--belgrade-color);
 }
 .list__moscow {
-	width: 25%;
-	background-color: #C24747;
+	background-color: var(--moscow-color);
 }
 .list__tel-aviv {
-	width: 25%;
-	background-color: #E2674A;
+	background-color: var(--tel-aviv-color);
 }
 .list__cair {
-	width: 25%;
-	background-color: #FFCC66;
+	background-color: var(--cair-color);
 }
 .list__NY {
-	width: 25%;
-	background-color: #99CC99;
+	background-color: var(--NY-color);
 }
 .list__delhi {
-	width: 25%;
-	background-color: #669999;
+	background-color: var(--delhi-color);
 }
 .list__san-francisco {
 	width: 50%;
-	background-color: #CC6699;
+	background-color: var(--san-francisco-color);
 }
 .list__tokyo {
-	width: 25%;
-	background-color: #339966;
+	background-color: var(--tokyo-color);
 }
 .list__sydney {
 	width: 100%;
-	background-color: #666699;
-}
-li .wi {
-	opacity: 0.5;
+	background-color: var(--sydney-color);
 }
 .light {
 	opacity: 0.5;

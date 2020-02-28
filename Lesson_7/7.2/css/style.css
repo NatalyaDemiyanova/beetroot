@@ -8,18 +8,19 @@
 }
 
 body {
-	max-width: 1468px;
 	border: 25px solid #2B81AC;
+	padding: 35px 100px;
+	height: 100vh;
 	color: white;
 	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 	background-color: #3399CC;
 }
 .title {
-	padding: 35px 0 35px 100px;
+	padding-bottom: 35px;
+	font-size: 44px;
 }													
 .list {
 	margin: auto;
-	max-width: 1226px;
 	list-style-type: none;
 	font-size: 0;
 	border: 3px solid white;
@@ -29,10 +30,11 @@ body {
 }
 .list__cities {
 	display: inline-block;
-	color:  white;
+	padding: 50px 0 50px;
+	color: white;
 	border: 3px solid white;
-	font-size: 32px;
-	height: 155px;
+	font-size: 44px;
+	font-weight: 700;
 	text-align: center;
 	line-height: 75px;
 }
@@ -93,6 +95,7 @@ li .wi {
 	opacity: 0.5;
 }
 .footer__title {
-	padding: 35px 0 140px 100px;
+	padding: 45px 0 140px;
+	font-size: 38px;
 }
 

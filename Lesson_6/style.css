@@ -13,12 +13,12 @@ body {
 	font-family: Arial;
 	padding: 24px;
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 }
 
 .header {
-	background-color: var(--grey)
+	background-color: var(--grey);
 	padding: 24px;
 	text-align: center;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .main {
-	background-color:
+	background-color: var(--dark-grey);
 	flex-grow: 1;
 	padding: 40px; 
 }

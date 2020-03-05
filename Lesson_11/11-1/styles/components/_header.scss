@@ -1,0 +1,28 @@
+.header {
+	background-image: url("../images/bg-header.png");
+
+	&__content {
+		@extend %container;
+		padding-top: 358px;
+		padding-bottom: 315px;
+	}
+	&__title {
+		font-size: $H11;
+		font-weight: 900;
+		color: $text-main-color;
+		margin-bottom: 20px;
+	}
+	&__text {
+		width: 368px;
+		font-size: $H4;
+		line-height: 27px;
+		font-weight: 300;
+		color: $text-main-color;
+		padding-bottom: 51px;
+	}
+	&__scroll {
+		text-align: center;
+		padding-bottom: 155px;
+	}
+}
+

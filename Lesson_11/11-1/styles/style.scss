@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway&display=swap');
+
+@import './core/var'; //переменные
+@import './core/inheritance'; //шаблоны
+@import './core/common'; //общие стили
+@import './core/mixins'; // миксины
+
+
+// блоки 
+@import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/button';
+
+@import './components/section__about-us';
+
+
+
+
+

@@ -3,6 +3,8 @@
 	margin: 0 auto;
 }
 
-%center {
-  margin: 0 auto;
+%visible-z {
+	position: relative;
+	z-index: 1;
 }
+

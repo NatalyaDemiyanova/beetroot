@@ -6,6 +6,7 @@
 
 body {
 	padding: 0 120px;
+	font-family: ProximaNova;
 }
 .list {
 	display: flex;
@@ -27,29 +28,26 @@ body {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin-bottom: 20px;
 	fill: white;
-
 }
 
 .item__image-wrapper:hover {
 	border: 2px solid #2a69a6;
 	background-color: #FFFFFF;
 }
-.item-1-svg {
-	fill: white;
-}
-}
+
 .item__image {
-	transition: all .5s ease;
+	width: 26px;
+	height: 33px;
 }
 .item__image:hover {
-	fill: white;
+	fill: #2a69a6;
+	transition: all 0.5s ease;
 }
 
-
 .item__title {
-	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -57,7 +55,6 @@ body {
 	margin-bottom: 22px;
 }
 .item__text {
-	font-family: ProximaNova;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 300;

@@ -1,0 +1,24 @@
+.link-card {
+	min-height: 100px;
+	width: 100%;
+	background-color: $white;
+	@include flex;
+	@media screen and (min-width: $screen-desktop) {
+    width: 400px;
+    }
+    &__text-wrapper {
+
+    } 
+	&__text {
+		@include text($H300, 700, $dark);
+	}
+	
+	&__icon-wrapper {
+		width: 100px;
+		@include flex(center, center);
+	} 
+	&__icon {
+		width: 60px;
+		height: 60px;
+	}   
+ }

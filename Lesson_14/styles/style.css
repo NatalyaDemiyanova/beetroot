@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway&display=swap");
-.section-about__container, .navigation, .header__container, .container {
+.section-services__container, .section-about__container, .navigation, .header__container, .container {
   max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-galery__button {
   margin: 0 auto;
 }
 
@@ -31,16 +27,11 @@ a {
   background-image: url("../images/bg-header.png");
   background-size: cover;
   background-position: center center;
-}
-.header__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1 1 auto;
   min-height: 100vh;
 }
-.header__content {
-  padding-top: 358px;
+.header__container {
+  flex-direction: column;
+  justify-content: space-between;
 }
 .header__title {
   font-size: 3.75rem;
@@ -57,11 +48,8 @@ a {
   padding-bottom: 51px;
 }
 .header__scroll {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  text-align: center;
+  padding-bottom: 155px;
 }
 
 .logo {
@@ -107,15 +95,11 @@ a {
   font-size: 1.25rem;
   font-weight: 300;
   color: white;
-  padding: 20px 25px;
 }
 
 .header__button {
   background-color: #FF6033;
-}
-
-.galery__button {
-  background-color: #5585A2;
+  padding: 20px 25px;
 }
 
 .section-about {
@@ -153,91 +137,37 @@ a {
 .section-services {
   background-color: #70BFFF;
 }
-.section-services__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-@media screen and (min-width: 1024px) {
-  .section-services__container {
-    flex-direction: row;
-  }
-}
 .section-services__content-box {
   width: 100%;
+  padding-top: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .section-services__content-box {
+    width: 50%;
+  }
+}
+.section-services__list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  margin-bottom: 32px;
 }
-@media screen and (min-width: 1024px) {
-  .section-services__content-box {
-    width: 50%;
-    align-items: flex-start;
-    margin-bottom: 0;
-  }
-}
-.section-services__list {
-  width: 100%;
-}
-.section-services__item:not(last-child) {
-  margin-bottom: 20px;
-}
-.section-services__image-box {
+.section-services__item {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  position: relative;
-  width: 100%;
-  position: relative;
-  height: 0;
-  padding-bottom: 100%;
 }
-.section-services__image-box img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-@media screen and (min-width: 1024px) {
-  .section-services__image-box {
-    width: 50%;
-    padding-bottom: 57%;
-  }
-}
-.section-services__title {
-  font-size: 3.75rem;
-  font-weight: 700;
-  color: white;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  z-index: 2;
-}
-@media screen and (min-width: 1024px) {
-  .section-services__title {
-    font-size: 5.625rem;
-  }
+.section-services__image-box {
+  width: 50%;
 }
 
 .link-card {
   min-height: 100px;
   width: 100%;
   background-color: white;
-  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -248,15 +178,6 @@ a {
   .link-card {
     width: 400px;
   }
-}
-.link-card__text-wrapper {
-  flex: 1 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  border-right: 1px solid #262626;
 }
 .link-card__text {
   font-size: 1.25rem;
@@ -274,31 +195,6 @@ a {
 .link-card__icon {
   width: 60px;
   height: 60px;
-}
-
-.section-galery {
-  background-color: #FFE92F;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-.section-galery__title {
-  font-size: 5.625rem;
-  font-weight: 700;
-  color: #262626;
-  text-align: center;
-  margin-bottom: 28px;
-}
-.section-galery__description {
-  font-size: 1.0625rem;
-  font-weight: 300;
-  color: #262626;
-  line-height: 27px;
-  width: 577px;
-  margin: 0 auto 42px;
-  text-align: center;
-}
-.section-galery__grid {
-  margin-bottom: 46px;
 }
 
 /*# sourceMappingURL=style.css.map */

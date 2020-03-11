@@ -1,0 +1,6 @@
+node_modules/
+build/
+dist/
+tmp/
+temp/
+package-lock.json/lesson-8.2.psd

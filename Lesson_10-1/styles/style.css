@@ -55,11 +55,14 @@ ul, ol {
 }
 
 .card {
-  height: 310px;
+  height: 300px;
   min-width: 300px;
   position: relative;
   display: flex;
   align-items: flex-end;
+}
+.card:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .card__image {
   position: absolute;
@@ -71,6 +74,8 @@ ul, ol {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  height: 300px;
+  min-width: 300px;
 }
 .card__date-box {
   position: absolute;
@@ -117,6 +122,7 @@ ul, ol {
   color: #ffffff;
   background-color: #F72B3B;
   padding: 20px 42px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

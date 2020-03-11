@@ -1,0 +1,29 @@
+.section-about {
+	background-color: $about-bg-color;
+	padding-top: 40px;
+	margin-top: -122px;
+
+	&__container {
+		@include flex (space-between, center);
+		@extend %container;
+	}
+	&__content-box {
+		margin-bottom: 90px;
+	}
+	&__title {
+		font-size: $H900;
+		font-weight: 700;
+		color: $white;
+		margin-bottom: 15px;
+	}
+	&__text {
+		font-size: $H200;
+		line-height: 27px;
+		font-weight: 300;
+		color: $white;
+		width: 500px;
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+}

@@ -3,4 +3,5 @@ build/
 dist/
 tmp/
 temp/
-package-lock.json/lesson-12-1.psd
+package-lock.json/
+lesson-12-1.psd/

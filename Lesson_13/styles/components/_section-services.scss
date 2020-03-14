@@ -1,11 +1,12 @@
 .section-services {
 	background-color: $service-bg-color;
 	&__container {
-		@include flex(flex-start, stretch, column);
-	    padding-top: 70px;
-	    padding-bottom: 70px;
+		@include flex (flex-star, center, column);
+	    padding: 70px 24px;
 	    @media screen and (min-width: $screen-desktop) {
       		flex-direction: row;
+      		padding-top: 70px;
+	    	padding-bottom: 70px;
     	}
   	}
 	&__content-box {
@@ -37,14 +38,13 @@
 	    }
 	}
 	&__title {
-    @include text($H800, 700, $white);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    z-index: 2;
-    @media screen and (min-width: $screen-desktop) {
-    	font-size: $H900;
+	    @include text($H900, 700, $white);
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    text-align: center;
+	    z-index: 2;
+	    @media screen and (min-width: $screen-desktop) {
     	}
   	}
 }

@@ -38,7 +38,7 @@
 				<p class="header__text">
 					Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 				</p>
-				<a class="button header__button" href="#">GET FREE NOW</a>
+				<a class="button button--header" href="#">GET FREE NOW</a>
 			</section>
 			<div class="scroll header__scroll">
 				<a href="">
@@ -47,14 +47,12 @@
 			</div>
 		</div>
 	</header>
-
+	
 	<main>
 		<section class="section-about">
 			<div class=" container section-about__container">
 				<div class="section-about__image-box">
-					<div class="section-about__image-wrapper">
-						<img class="section-about__image" src="images/about_us.png" alt="about us">
-					</div>
+					<img class="section-about__image" src="images/about_us.png" alt="about us">
 				</div>
 				<div class="section-about__content-box">
 					<h2 class="section-about__title">About Us</h2>
@@ -67,7 +65,7 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<section class="section-services">
 			<div class=" container section-services__container">
 				<div class="section-services__content-box">
@@ -114,14 +112,12 @@
 						</li>
 					</ul>
 				</div>
-
 				<div class="section-services__image-box">
 					<h2 class="section-services__title">Our Services</h2>
 					<div class="section-services__image-wrapper">
 						<img class="section-services__image" src="images/services/services.png" alt="services">
 					</div>
 				</div>
-				
 			</div>
 		</section>
 
@@ -134,33 +130,97 @@
 				<div class="section-galery__grid photo-grid">
 
 					<div class="photo-grid__row">
-						<div class="photo-grid__col photo-grid__col--large photo-grid__image-wrapper photo-grid__image-wrapper--large ">
-							<img class="photo-grid__image" src="images/galery/Clip-1.png" alt="clip-1">
+						<div class="photo-grid__col photo-grid__col--large photo-grid__image-wrapper">
+							<img src="images/galery/Clip-1.png" alt="clip-1">
 						</div>
-						<div class="photo-grid__col photo-grid__col--small">
-							<div class="photo-grid__image-wrapper photo-grid__image-wrapper--small">
-								<img class="photo-grid__image" src="images/galery/Clip-2.png" alt="clip-2">
+						<div class="photo-grid__col">
+							<div class="photo-grid__row photo-grid__row--small photo-grid__image-wrapper">
+								<img src="images/galery/Clip-2.png" alt="clip-2">
 							</div>
-							<div class="photo-grid__image-wrapper photo-grid__image-wrapper--small">
-								<img class="photo-grid__image" src="images/galery/Clip-3.png" alt="clip-3">
+							<div class="photo-grid__row photo-grid__row--small photo-grid__image-wrapper">
+								<img src="images/galery/Clip-3.png" alt="clip-3">
 							</div>
 						</div>
 					</div>
 
 					<div class="photo-grid__row">
-						<div class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper photo-grid__image-wrapper--medium">
-							<img class="photo-grid__image" src="images/galery/Clip-4.png" alt="clip-4">
+						<div class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper">
+							<img src="images/galery/Clip-4.png" alt="clip-4">
 						</div>
-						<div class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper photo-grid__image-wrapper--medium">
-							<img class="photo-grid__image" src="images/galery/Clip-5.png" alt="clip-5">
-						</div>		
+						<div class="photo-grid__col photo-grid__col--medium photo-grid__image-wrapper">
+							<img src="images/galery/Clip-5.png" alt="clip-5">
+						</div>
 					</div>
 				</div>
-
-				<a class="button galery__button" href="#">VIEW MORE</a>
-
+				<a class="button button--gallery section-galery__button" href="#">VIEW MORE</a>
 			</div>
 		</section>
+
+		<section class="section-subscribe">
+			<div class="container section-subscribe__container">
+				<h2 class="section-subscribe__title">Subscribe To Us</h2>
+				<p class="section-subscribe__description">
+					Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<form class="section-subscribe__form" action="#" method="get">
+					<input class="section-subscribe__input" type="email" placeholder="Your email address..." >
+					<button class="button button--subscribe section-subscribe__button" type="submit" name="submit">SUBSCRIBE</button>
+				</form>
+			</div>
+		</section>
+		
+
+		<section class="section-blog">
+			<div class="container section-blog__container">
+				<h2 class="section-blog__title">Blog</h2>
+				<p class="section-blog__description">
+					Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+				</p>
+				<ul class="section-blog__list">
+					<li class="section-blog__list--item blog-card">
+						<img class="blog-card__image" src="images/blog/moxito.png" alt="moxito">
+						<div class="blog-card__date-box">
+							<span class="blog-card__date">20</span>
+							<span class="blog-card__date-month"> nov</span>
+						</div>
+						<div class="blog-card__content">
+							<h3 class="blog-card__title">
+								Green Smoothies: Too Much of a Good Thing?
+							</h3>
+							<p class="blog-card__info">By Auskteez - 2 hours ago</p>
+						</div>
+					</li>
+					<li class="section-blog__list--item blog-card">
+						<img class="blog-card__image" src="images/blog/soup.png" alt="soup">
+						<div class="blog-card__date-box">
+							<span class="blog-card__date">10</span>
+							<span class="blog-card__date-month"> nov</span>
+						</div>
+						<div class="blog-card__content">
+							<h3 class="blog-card__title">
+								Growing Food and a “Thirst” for Innovation
+							</h3>
+							<p class="blog-card__info">By Auskteez - 3 hours ago</p>
+						</div>
+					</li>
+					<li class="section-blog__list--item blog-card">
+						<img class="blog-card__image" src="images/blog/malina.png" alt="malina">
+						<div class="blog-card__date-box">
+							<span class="blog-card__date">14</span>
+							<span class="blog-card__date-month"> nov</span>
+						</div>
+						<div class="blog-card__content">
+							<h3 class="blog-card__title">
+								Pesticides & Food: What You Need to Know
+							</h3>
+							<p class="blog-card__info">By Auskteez - 6 hours ago</p>
+						</div>
+					</li>
+				</ul>
+				<a class="button button--blog section-blog__button" href="#">VIEW MORE</a>
+			</div>
+		</section>
+		
 	</main>
 </body>
 </html>

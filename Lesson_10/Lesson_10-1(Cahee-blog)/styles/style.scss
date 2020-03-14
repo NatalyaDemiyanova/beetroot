@@ -2,11 +2,12 @@
 
 @import './core/var'; //переменные
 @import './core/inheritance'; //шаблоны
+@import './core/mixins'; // миксины
 @import './core/common'; //общие стили
 
 // блоки 
-@import './components/section';
-@import './components/card';
+@import './components/section-blog';
+@import './components/blog-card';
 @import './components/button';
 
 

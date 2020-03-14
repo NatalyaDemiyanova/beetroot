@@ -3,4 +3,4 @@ build/
 dist/
 tmp/
 temp/
-package-lock.json
+package-lock.json/

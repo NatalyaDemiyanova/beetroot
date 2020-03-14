@@ -3,4 +3,5 @@ build/
 dist/
 tmp/
 temp/
-package-lock.json/lesson-6.2.png
+package-lock.json/
+lesson-6.2.png/

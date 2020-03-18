@@ -33,6 +33,10 @@
 		}	
 	}
 
+	&__form {
+		@include flex(flex-start, flex-start);
+	}
+
 	&__input {
 		width: 100%;
 		height: 55px;

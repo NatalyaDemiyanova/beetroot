@@ -42,7 +42,6 @@ body {
 .text--large-letter {
   text-transform: uppercase;
   color: black;
-  opacity: 1;
   font-family: PlayfairDisplay;
   font-size: 110px;
   font-weight: 400;

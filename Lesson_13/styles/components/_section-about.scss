@@ -17,6 +17,7 @@
 	&__image-box {
 		width: 100%;
 		margin-bottom: 30px;
+		transform: rotateZ(360deg);
 		@media screen and (min-width: $screen-desktop) {
 			width: 50%;
 		}

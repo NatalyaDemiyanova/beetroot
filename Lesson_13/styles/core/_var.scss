@@ -22,6 +22,13 @@ $blog-btn-color: #F72B3B;
 $text-main-color: #262626;
 $text-marked-color: #FF2B58;
 
+// input
+$input-bg: #00c4c4;
+$input-active-bg: #00c4c4;
+$input-focus-border: #355b82;
+$input-error-border: #ff2b58;
+$input-valid-border: #96b92c;
+
 @function calcRem($size) {
   $remSize: $size / 16px;
   @return #{$remSize}rem;

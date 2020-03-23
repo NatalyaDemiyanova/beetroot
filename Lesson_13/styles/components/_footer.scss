@@ -1,0 +1,12 @@
+.footer {
+	background-color: $footer-bg-color;
+	min-height: 90px;
+	&__container {
+		@include flex(space-between, center);
+	}
+
+}
+__text-left
+__logo
+__text-right
+__text-marked

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5eeee;
+  padding-left: 145px;
+  padding-top: 50px;
+  z-index: 5;
+  font-family: Quicksand;
+}
+
+.body-bridge {
+  padding-left: 30px;
+  background-image: url(bg__main.png);
+  background-repeat: no-repeat;
+  /* opacity: 0.2; */
+  z-index: 2;
+}
+
+.container {
+  z-index: 10;
+  max-width: 400px;
+  background-color: #166a6a;
+  background-image: linear-gradient(32deg, #3023ae 3%, #c86dd7 96%);
+  padding: 50px 70px;
+}
+.navigation {
+}
+.navigation__list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 25px;
+}
+.navigation__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fbf6e4;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+.navigation__link:hover {
+  border-color: #e66a64;
+}
+
+.form {
+}
+.form__controls {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+}
+.form__input {
+}
+.form__error {
+}
+.form__controls--checked {
+  display: flex;
+  flex-direction: row;
+}
+.form__label--checkout {
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lesson-12(Form)</title>
+  </head>
+  <body>
+    <div class="body-bridge">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Sign in</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Join us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <form class="form" action="#">
+          <div class="form__controls">
+            <label class="form__label" for="#">Username</label>
+            <input
+              class="form__input"
+              type="text"
+              name="username"
+              minlength="4"
+            />
+            <div class="form__error" class="form__error">error</div>
+          </div>
+
+          <div class="form__controls">
+            <label class="form__label" for="#">Password</label>
+            <input
+              class="form__input"
+              type="password"
+              name="password"
+              minlength="4"
+            />
+            <div class="form__error" class="form__error">error</div>
+          </div>
+
+          <div class="form__controls form__controls--checked">
+            <input type="checkbox" />
+            <label class="form__label form__label--checkout" for=""
+              >Keep me signed in</label
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

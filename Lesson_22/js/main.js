@@ -48,3 +48,15 @@ alert( "Число задом наперед" + " " + firstNumber + secondNumber
 const depositTwoMonth = prompt("Введите сумму вклада в банк на 2 месяца");
 alert("Проценты: " + depositTwoMonth * 0.05 * 2 / 12);
 
+
+
+// var number = 123456789, result = 0;
+ 
+// while (number) {
+//     result *= 10;
+//     result += number % 10;
+//     number = Math.floor(number / 10);
+// }
+ 
+// console.log(result);
+// console.log(typeof(result));

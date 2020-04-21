@@ -27,6 +27,7 @@
   
   # Java Script
 * [Lesson 22](https://natalyademiyanova.github.io/beetroot/Lesson_22)
+* [Lesson 23](https://natalyademiyanova.github.io/beetroot/Lesson_23)
  
 
 

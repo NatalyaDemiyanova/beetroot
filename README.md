@@ -29,8 +29,8 @@
 * [Lesson 22](https://natalyademiyanova.github.io/beetroot/Lesson_22)
 * [Lesson 23](https://natalyademiyanova.github.io/beetroot/Lesson_23)
 * [Lesson 24](https://natalyademiyanova.github.io/beetroot/Lesson_24(Function))
-* [Lesson 31]
-  * [Lesson 31-1 (Tabs)](https://natalyademiyanova.github.io/beetroot/Lesson_31/Task-1)
+* Lesson 31
+  * [Lesson 31-1 (Tabs)](https://github.com/NatalyaDemiyanova/beetroot/tree/master/Lesson_31/Task-1)
   * [Lesson 31-2(calculator)](https://natalyademiyanova.github.io/beetroot/Lesson_31/Task-2)
  
 

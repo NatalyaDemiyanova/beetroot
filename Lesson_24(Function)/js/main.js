@@ -1,29 +1,34 @@
 'use strict';
 
 // 1. Написать функцию, которая принимает 2 числа и возвращает -1, если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если числа равны.
+alert('Task 1');
+let a = prompt("Enter first number");
+let b = prompt("Enter second number");
 
-function number(a, b) {
+const showNumber = function () {
+    
     if (a < b) {
         return '-1';
     }
     if(a > b) {
-        return '1'
+        return '1';
     }
     if(a == b) {
         return 0;
     } 
 }
-console.log(number(5, 5));
+alert(showNumber());
 
 // 2. Написать функцию, которая вычисляет факториал переданного ей числа.
-
-const factorial = function(n) {
+alert('Task 2');
+let n = prompt("Enter enter to calculate factorial");
+const factorial = function() {
     if(n) {
         return n* factorial(n - 1);
     }
     return 1;
 };
-console.log(factorial(6));
+alert(factorial());
 
 
 // 3. Написать функцию, которая принимает три отдельные цифры и превращает их в одно число.
@@ -48,7 +53,7 @@ const perfectNumber = function(n, i = 1, sum = 0) {
     }
     return perfectNumber(n, i + 1, n % i ? sum : sum + i);
 }
-console.log(perfectNumber(10));
+console.log(perfectNumber(28));
 
 // 6.
 const perfectRange = function(a, b) {

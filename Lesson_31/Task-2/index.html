@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-31(Calculete)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="item item-input">
+            <form class="form" name="calc" action="/">
+                <input class="input" name="textview" type="text">
+            </form>
+        </button >
+        <button class="item item-clean" onclick="clean()">C</button>
+        <button class="item item-back" onclick="backspace()">&#8592;</button>
+        <button class="item" onclick="insert('+')">+</button>
+        <button class="item" onclick="insert('-')">-</button>
+        <button class="item" onclick="insert('*')">&#215;</button>
+        <button class="item" onclick="insert('/')">/</button>
+        <button class="item" onclick="insert('7')">7</button>       
+        <button class="item" onclick="insert('8')">8</button>
+        <button class="item" onclick="insert('9')">9</button>
+        <button class="item" onclick="insert('(')">(</button>
+        <button class="item" onclick="insert('4')">4</button>
+        <button class="item" onclick="insert('5')">5</button>
+        <button class="item" onclick="insert('6')">6</button>
+        <button class="item" onclick="insert(')')">)</button>
+        <button class="item" onclick="insert('1')">1</button>
+        <button class="item" onclick="insert('2')">2</button>
+        <button class="item" onclick="insert('3')">3</button>
+        <button class="item item-equal" onclick="equally()">=</button>
+        <button class="item item-zero" onclick="insert('0')">0</button>
+        <button class="item" onclick="insert('.')">.</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

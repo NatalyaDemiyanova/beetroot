@@ -8,13 +8,13 @@
 }
 
 body {
+    padding-top: 145px;
     font-family: Lato;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     margin: 0 auto;

@@ -21,9 +21,9 @@
 * [Lesson 9](https://natalyademiyanova.github.io/beetroot/Lesson_9)
   * [Lesson 9.1](https://natalyademiyanova.github.io/beetroot/Lesson_9/9.1)
 * [Lesson 10](https://natalyademiyanova.github.io/beetroot/Lesson_10)
-  * [Lesson 10.1](https://natalyademiyanova.github.io/beetroot/10-1(Cahee-blog))
+  * [Lesson 10.1](https://natalyademiyanova.github.io/beetroot/Lesson_10/10-1(Cahee-blog))
 * [Lesson 11](https://natalyademiyanova.github.io/beetroot/Lesson_11)
-  * [Lesson 11.1](https://natalyademiyanova.github.io/beetroot/11-1)
+  * [Lesson 11.1](https://natalyademiyanova.github.io/beetroot/Lesson_11/11-1)
   
   # Java Script
 * [Lesson 22](https://natalyademiyanova.github.io/beetroot/Lesson_22)

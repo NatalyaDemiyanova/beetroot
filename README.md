@@ -32,6 +32,7 @@
 * Lesson 31
   * [Lesson 31-1 (Tabs)](https://github.com/NatalyaDemiyanova/beetroot/tree/master/Lesson_31/Task-1)
   * [Lesson 31-2(calculator)](https://natalyademiyanova.github.io/beetroot/Lesson_31/Task-2)
+* [Lesson 32(Slider)](https://natalyademiyanova.github.io/beetroot/Lesson_32)
  
 
 

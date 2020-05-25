@@ -1,0 +1,6 @@
+node_modules/
+tmp/
+temp/
+package-lock.json/
+build/
+lesson-31-1.psd/

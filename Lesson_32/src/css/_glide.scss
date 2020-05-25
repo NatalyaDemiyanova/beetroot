@@ -1,0 +1,20 @@
+.glide {
+
+    &__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -120px;
+        z-index: 5;
+        border: none;
+        background-color: transparent;
+        &--right {
+            right: -120px;
+            left: auto;
+        } 
+    }
+
+    &__slide--active {
+        opacity: 0.2;
+    }
+}
